@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('./assets/fonts/DM_Sans.zip');
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Отступы слева и справа для симметрии */
+    margin-top: 30px;
+}
+
+h1 {
+    color: #1E0E62;
+    font-size: 42px;
+    margin-top: 70px;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+    
+}
+
+.block {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 490px; 
+    height: 240px; 
+    border: 2px solid #EBEAED; 
+    padding: 30px; 
+    border-radius: 10px;
+}
+
+.title2 {
+    color: #1E0E62;
+}
+
+.explore-button {
+    width: 184px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 100px;
+    color: #1E0E62;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #EBEAED;
+}
+
+button {
+    margin-top: 60px; 
+    border-radius: 100px;
+    padding: 10px;
+    width: 105px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid #ebeaed00; /* очищает края кнопок */
+}
