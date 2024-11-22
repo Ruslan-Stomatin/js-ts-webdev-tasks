@@ -1,0 +1,34 @@
+.gallery {
+    width: 100%; /* Ширина контейнера */
+    height: 500px; /* Высота контейнера */
+    background-color: rgb(1, 1, 7);
+}
+
+.gallery h2 {
+    display: flex;
+    justify-content: center;
+    color: #FE772D;
+    margin-top: 90px;
+    font-size: 44px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 48px; 
+    width: 90%; 
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.gallery img {
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 16px; 
+    box-shadow: 0 4px 6px rgba(235, 233, 233, 0.568); 
+}
+
+.gallery-grid img:hover {
+    transform: translateY(-5px);
+}

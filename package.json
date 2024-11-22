@@ -1,0 +1,16 @@
+{
+  "name": "hometask-halloween-localization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "vite",      
+    "build": "vite build",  
+    "serve": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.4.10"
+  }
+}

@@ -1,0 +1,40 @@
+.underVector {
+    width: 100vw; 
+    height: 80vh; 
+    background-image: url('/src/assets/Vector.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerVectors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); 
+    gap: 14px; 
+    justify-items: center; 
+    align-items: start; 
+    padding: 20px;
+}
+
+.titleAndIcon {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    gap: 30px;
+}
+
+.titleAndIcon h2 {
+    color: #FE772D;
+    font-size: 44px;
+}
+
+.social-icons {
+    cursor: pointer;
+}

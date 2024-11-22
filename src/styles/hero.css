@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(1, 1, 7);
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+    background-color: rgb(3, 1, 20); 
+    height: 15vh; 
+    color: white;
+    position: relative; 
+}
+
+header h1 {
+    margin-left: 90px; 
+    font-size: 34px; 
+}
+
+nav {
+    display: flex; 
+    gap: 24px; 
+    margin-right: 10px; 
+    align-items: center; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 16px; 
+    gap: 24px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header .reserv-button {
+    border-radius: 10px; 
+    border: none; 
+    padding: 15px 25px;
+    background-color: #FE772D; 
+    cursor: pointer; 
+    font-size: 16px;
+    margin-right: 110px; 
+}
+
+header .reserv-button:hover {
+    background-color: #fe762dc4; 
+}
+
+nav .langChangeEn {
+    margin-left: 50px;
+    
+}
+
+
+
+/* -------------------------------------HERO---------------------------------------*/
+
+
+
+.hero {
+    width: 100vw; 
+    height: 80vh; 
+    background-color: rgb(15, 15, 15);
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.9) 100%),  url('/src/assets/img-hel-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dateWithTitle {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: -440px; 
+    margin-right: -43px; 
+    gap: 15px;
+}
+
+.dateWithTitle h2 {
+    color: #FE772D;
+}
+
+.date {
+    font-size: 24px;
+}
+
+.date img {
+    margin-left: 60px;
+}
+
+.arrow-down {
+    width: 150px; 
+    height: 150px;
+    color: #FE772D; 
+    position: absolute; 
+    top: 82%;
+    left: 45%; 
+    
+}
+
+.arrow-down:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
